@@ -1,0 +1,83 @@
+body {
+    background-image: url(http://practice-pixels.s3.amazonaws.com/texture-blue.jpg);
+    font-size: 62.5%;
+}
+header{
+    text-align: center;
+    font-family: Helvetica;
+    margin-bottom:20px;
+}
+header img{
+    width: 75px;
+}
+.wrapper{
+    background-color: white;
+    width:800px;
+    margin:auto;
+    border-radius:5px 5px; /*rounded corners?*/
+    padding:5px;
+    font-size:10px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Helvetica;
+	margin:1px;
+}
+h1 {
+    font-size:2rem;
+	color:#D42B1E;
+}
+
+h2 {
+    font-size:1.2rem;
+    color: #000000;
+}
+
+h3 {
+    font-size:1.2rem;
+    color: #000000;
+}
+
+h4 {
+    font-size:1.0rem;
+    color: #000000;
+    font-style:italic;
+}
+
+p {
+    line-height:1.5;
+    font-size:1.0rem; /* 10px */
+	font-family:Georgia;
+    color: #000000;
+}
+.book{
+    background-color: #EEEEEE;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+a:link {
+    font-family:Helvetica;
+    color:#D42B1E;
+}
+a:visited {
+    color:#D42B1E;
+}
+a:hover {
+    color:#185A96;
+}
+a:active {
+    color:#D42B1E;
+}
+
+header a:link, header a:visited, header a:active, header  a:hover {
+    color:black;
+}
+footer {
+	font-family:Helvetica;
+	color:#333;
+	text-align:center;
+	padding:5px;
+    font-size:1.0rem;
+}
